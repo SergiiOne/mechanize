@@ -1,0 +1,99 @@
+# Logfile created on 2012-10-29 17:10:11 +0800 by logger.rb/25413
+I, [2012-10-29T17:10:11.014518 #98243]  INFO -- : Net::HTTP::Get: /
+D, [2012-10-29T17:10:11.014606 #98243] DEBUG -- : request-header: accept => */*
+D, [2012-10-29T17:10:11.014655 #98243] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-10-29T17:10:11.014702 #98243] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-10-29T17:10:11.014745 #98243] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-10-29T17:10:11.014788 #98243] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-10-29T17:10:11.014832 #98243] DEBUG -- : request-header: host => www.google.com
+I, [2012-10-29T17:10:11.375296 #98243]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2012-10-29T17:10:11.375449 #98243] DEBUG -- : response-header: location => http://www.google.com.hk/
+D, [2012-10-29T17:10:11.375523 #98243] DEBUG -- : response-header: cache-control => private
+D, [2012-10-29T17:10:11.375591 #98243] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2012-10-29T17:10:11.375659 #98243] DEBUG -- : response-header: set-cookie => PREF=ID=cb496ea86eec353a:FF=0:TM=1351501811:LM=1351501811:S=tUjGwATKkZosfK0q; expires=Wed, 29-Oct-2014 09:10:11 GMT; path=/; domain=.google.com, NID=65=ZEQcv22XueDfmevby_L3D0UzpMg3pTZb61NUU5RuI_QDzjMbnOl7huByFNd0Yqr_G-yTT-RhO-jc_8EjpJvfdHeMXobvpl35kJELLwI2RiPUTf3ZSgg-RS2dTUJ5Lzrt; expires=Tue, 30-Apr-2013 09:10:11 GMT; path=/; domain=.google.com; HttpOnly
+D, [2012-10-29T17:10:11.375726 #98243] DEBUG -- : response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+D, [2012-10-29T17:10:11.375803 #98243] DEBUG -- : response-header: date => Mon, 29 Oct 2012 09:10:11 GMT
+D, [2012-10-29T17:10:11.375870 #98243] DEBUG -- : response-header: server => gws
+D, [2012-10-29T17:10:11.375934 #98243] DEBUG -- : response-header: content-length => 222
+D, [2012-10-29T17:10:11.375998 #98243] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2012-10-29T17:10:11.376062 #98243] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2012-10-29T17:10:11.376272 #98243] DEBUG -- : Read 222 bytes (222 total)
+D, [2012-10-29T17:10:11.379605 #98243] DEBUG -- : saved cookie: PREF=ID=cb496ea86eec353a:FF=0:TM=1351501811:LM=1351501811:S=tUjGwATKkZosfK0q
+D, [2012-10-29T17:10:11.380373 #98243] DEBUG -- : saved cookie: NID=65=ZEQcv22XueDfmevby_L3D0UzpMg3pTZb61NUU5RuI_QDzjMbnOl7huByFNd0Yqr_G-yTT-RhO-jc_8EjpJvfdHeMXobvpl35kJELLwI2RiPUTf3ZSgg-RS2dTUJ5Lzrt
+I, [2012-10-29T17:10:11.380441 #98243]  INFO -- : follow redirect to: http://www.google.com.hk/
+I, [2012-10-29T17:10:11.383028 #98243]  INFO -- : Net::HTTP::Get: /
+D, [2012-10-29T17:10:11.383090 #98243] DEBUG -- : request-header: accept => */*
+D, [2012-10-29T17:10:11.383136 #98243] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-10-29T17:10:11.383181 #98243] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-10-29T17:10:11.383224 #98243] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-10-29T17:10:11.383268 #98243] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-10-29T17:10:11.383311 #98243] DEBUG -- : request-header: host => www.google.com.hk
+I, [2012-10-29T17:10:11.875526 #98243]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-10-29T17:10:11.875687 #98243] DEBUG -- : response-header: date => Mon, 29 Oct 2012 09:10:11 GMT
+D, [2012-10-29T17:10:11.875762 #98243] DEBUG -- : response-header: expires => -1
+D, [2012-10-29T17:10:11.875831 #98243] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2012-10-29T17:10:11.875898 #98243] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2012-10-29T17:10:11.875967 #98243] DEBUG -- : response-header: set-cookie => PREF=ID=b015dc69a8626b92:FF=0:TM=1351501811:LM=1351501811:S=iMym3EtPnobSKgXp; expires=Wed, 29-Oct-2014 09:10:11 GMT; path=/; domain=.google.com.hk, NID=65=a_6mCdBLbaPc-pVOFVqEjTA_UWax-38WIDbazx6yE5AQSOLX_dXO0UUxjjo36a10ltrLesH6YVBmAUg-zLAzlGoVjGDp11137Aa6CPqp2DzrbOdPyPhj3KIC_w-M9HWX; expires=Tue, 30-Apr-2013 09:10:11 GMT; path=/; domain=.google.com.hk; HttpOnly
+D, [2012-10-29T17:10:11.876061 #98243] DEBUG -- : response-header: p3p => CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+D, [2012-10-29T17:10:11.876130 #98243] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-10-29T17:10:11.876196 #98243] DEBUG -- : response-header: server => gws
+D, [2012-10-29T17:10:11.876261 #98243] DEBUG -- : response-header: content-length => 21350
+D, [2012-10-29T17:10:11.876326 #98243] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2012-10-29T17:10:11.876391 #98243] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2012-10-29T17:10:11.876554 #98243] DEBUG -- : Read 1912 bytes (1912 total)
+D, [2012-10-29T17:10:12.026157 #98243] DEBUG -- : Read 4044 bytes (5956 total)
+D, [2012-10-29T17:10:12.182103 #98243] DEBUG -- : Read 1348 bytes (7304 total)
+D, [2012-10-29T17:10:12.182701 #98243] DEBUG -- : Read 1348 bytes (8652 total)
+D, [2012-10-29T17:10:12.182854 #98243] DEBUG -- : Read 2696 bytes (11348 total)
+D, [2012-10-29T17:10:12.182961 #98243] DEBUG -- : Read 1348 bytes (12696 total)
+D, [2012-10-29T17:10:12.329166 #98243] DEBUG -- : Read 1348 bytes (14044 total)
+D, [2012-10-29T17:10:12.330730 #98243] DEBUG -- : Read 1348 bytes (15392 total)
+D, [2012-10-29T17:10:12.330914 #98243] DEBUG -- : Read 1348 bytes (16740 total)
+D, [2012-10-29T17:10:12.332711 #98243] DEBUG -- : Read 1348 bytes (18088 total)
+D, [2012-10-29T17:10:12.345113 #98243] DEBUG -- : Read 2696 bytes (20784 total)
+D, [2012-10-29T17:10:12.496678 #98243] DEBUG -- : Read 566 bytes (21350 total)
+D, [2012-10-29T17:10:12.497014 #98243] DEBUG -- : gzip response
+D, [2012-10-29T17:10:12.508921 #98243] DEBUG -- : saved cookie: PREF=ID=b015dc69a8626b92:FF=0:TM=1351501811:LM=1351501811:S=iMym3EtPnobSKgXp
+D, [2012-10-29T17:10:12.509711 #98243] DEBUG -- : saved cookie: NID=65=a_6mCdBLbaPc-pVOFVqEjTA_UWax-38WIDbazx6yE5AQSOLX_dXO0UUxjjo36a10ltrLesH6YVBmAUg-zLAzlGoVjGDp11137Aa6CPqp2DzrbOdPyPhj3KIC_w-M9HWX
+I, [2012-10-29T17:13:22.140752 #98243]  INFO -- : form encoding: UTF-8
+I, [2012-10-29T17:13:22.163232 #98243]  INFO -- : Net::HTTP::Get: /search?hl=zh-TW&site=&source=hp&q=Hello
+D, [2012-10-29T17:13:22.163375 #98243] DEBUG -- : request-header: accept => */*
+D, [2012-10-29T17:13:22.163481 #98243] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-10-29T17:13:22.163609 #98243] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-10-29T17:13:22.163694 #98243] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-10-29T17:13:22.163775 #98243] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-10-29T17:13:22.163856 #98243] DEBUG -- : request-header: cookie => PREF=ID=b015dc69a8626b92:FF=0:TM=1351501811:LM=1351501811:S=iMym3EtPnobSKgXp; NID=65=a_6mCdBLbaPc-pVOFVqEjTA_UWax-38WIDbazx6yE5AQSOLX_dXO0UUxjjo36a10ltrLesH6YVBmAUg-zLAzlGoVjGDp11137Aa6CPqp2DzrbOdPyPhj3KIC_w-M9HWX
+D, [2012-10-29T17:13:22.163936 #98243] DEBUG -- : request-header: host => www.google.com.hk
+D, [2012-10-29T17:13:22.164063 #98243] DEBUG -- : request-header: referer => http://www.google.com.hk/
+I, [2012-10-29T17:13:22.992665 #98243]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-10-29T17:13:22.992824 #98243] DEBUG -- : response-header: date => Mon, 29 Oct 2012 09:13:22 GMT
+D, [2012-10-29T17:13:22.992912 #98243] DEBUG -- : response-header: expires => -1
+D, [2012-10-29T17:13:22.992996 #98243] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2012-10-29T17:13:22.993077 #98243] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2012-10-29T17:13:22.993184 #98243] DEBUG -- : response-header: set-cookie => PREF=ID=b015dc69a8626b92:U=a17648c0a31f1685:FF=0:TM=1351501811:LM=1351502002:S=me-ot5o_OfuyhPcq; expires=Wed, 29-Oct-2014 09:13:22 GMT; path=/; domain=.google.com.hk
+D, [2012-10-29T17:13:22.993268 #98243] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-10-29T17:13:22.993387 #98243] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-10-29T17:13:22.993481 #98243] DEBUG -- : response-header: server => gws
+D, [2012-10-29T17:13:22.993561 #98243] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2012-10-29T17:13:22.993641 #98243] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2012-10-29T17:13:22.993917 #98243] DEBUG -- : Read 2240 bytes (2240 total)
+D, [2012-10-29T17:13:23.078492 #98243] DEBUG -- : Read 1348 bytes (3588 total)
+D, [2012-10-29T17:13:23.078758 #98243] DEBUG -- : Read 1348 bytes (4936 total)
+D, [2012-10-29T17:13:23.079501 #98243] DEBUG -- : Read 1348 bytes (6284 total)
+D, [2012-10-29T17:13:23.160870 #98243] DEBUG -- : Read 4044 bytes (10328 total)
+D, [2012-10-29T17:13:23.161217 #98243] DEBUG -- : Read 1348 bytes (11676 total)
+D, [2012-10-29T17:13:23.162371 #98243] DEBUG -- : Read 1348 bytes (13024 total)
+D, [2012-10-29T17:13:23.257120 #98243] DEBUG -- : Read 2696 bytes (15720 total)
+D, [2012-10-29T17:13:23.257936 #98243] DEBUG -- : Read 2696 bytes (18416 total)
+D, [2012-10-29T17:13:23.258370 #98243] DEBUG -- : Read 2696 bytes (21112 total)
+D, [2012-10-29T17:13:23.365346 #98243] DEBUG -- : Read 5623 bytes (26735 total)
+D, [2012-10-29T17:13:23.366055 #98243] DEBUG -- : Read 5153 bytes (31888 total)
+D, [2012-10-29T17:13:23.366446 #98243] DEBUG -- : Read 1348 bytes (33236 total)
+D, [2012-10-29T17:13:23.470890 #98243] DEBUG -- : Read 1138 bytes (34374 total)
+D, [2012-10-29T17:13:23.471131 #98243] DEBUG -- : Read 4246 bytes (38620 total)
+D, [2012-10-29T17:13:23.472802 #98243] DEBUG -- : Read 2696 bytes (41316 total)
+D, [2012-10-29T17:13:23.475129 #98243] DEBUG -- : Read 1348 bytes (42664 total)
+D, [2012-10-29T17:13:23.477028 #98243] DEBUG -- : Read 1348 bytes (44012 total)
+D, [2012-10-29T17:13:23.478103 #98243] DEBUG -- : Read 1243 bytes (45255 total)
+D, [2012-10-29T17:13:23.478499 #98243] DEBUG -- : gzip response
+D, [2012-10-29T17:13:23.495473 #98243] DEBUG -- : saved cookie: PREF=ID=b015dc69a8626b92:U=a17648c0a31f1685:FF=0:TM=1351501811:LM=1351502002:S=me-ot5o_OfuyhPcq
