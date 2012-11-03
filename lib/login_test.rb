@@ -5,7 +5,7 @@ require 'debugger'
 require 'mechanize'
 
 agent = Mechanize.new
-agent.log = Logger.new "mech.log"
+agent.log = Logger.new "log/mech.log"
 agent.user_agent_alias = 'Mac Safari'
 
 page = agent.get "http://www.google.com/"

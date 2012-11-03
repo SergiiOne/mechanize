@@ -2,6 +2,7 @@ require 'rubygems'
 require 'debugger'
 require 'json'
 require 'mechanize'
+require 'active_record'
 
 class Comscore
 
@@ -13,8 +14,8 @@ class Comscore
 
   def login(username = 'chs_syim', password = '1malone')
     login_form = @page.form('loginform')
-    login_form.reg_id_swf = 'C69DB40B732541D18F5C535E13A56B1E'
-    login_form.reg_id_cookie = 'C69DB40B732541D18F5C535E13A56B1E'
+    login_form.reg_id_swf = 'F80E34627B4349C685E5DFB75CB56280'
+    login_form.reg_id_cookie = ''
     login_form.userid = username
     login_form.passwd = password
     @agent.submit(login_form)
@@ -45,8 +46,8 @@ class Comscore
   
 end
 
-agent = Comscore.new
-agent.login
-result = JSON.parse agent.json_object_provider('iteye').content
-debugger
-p agent.dashboard result['mediaDetails'].first['webId']
+# agent = Comscore.new
+# agent.login
+# result = JSON.parse agent.json_object_provider('iteye').content
+# debugger
+# p agent.dashboard result['mediaDetails'].first['webId']
