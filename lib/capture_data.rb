@@ -30,7 +30,7 @@ class CaptureData
           logger.info("web_url: #{website.url} media_id: #{media_id} comscore: ok id #{cod.id unless cod.nil?} ")
         end
 
-        logger.info("web_url: #{website.url} can not search media_id from comscore")
+        logger.error("web_url: #{website.url} can not search media_id from comscore")
       rescue Exception => e
         logger.error(e)
       end
@@ -51,19 +51,4 @@ class CaptureData
     @comscore_session.dashboard(media_id)
   end
 
-
-
-
-
 end
-
-
-# c_data = CaptureData.new
-# origin_data = c_data.get_comscore_origin_data c_data.get_first_media_id('tumblr.com')
-
-# cod = ComscoreOriginData.new({ 'origin_data' => origin_data.body })
-# cod.save
-
-
-
-

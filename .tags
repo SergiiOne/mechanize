@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CaptureData	lib/capture_data.rb	/^class CaptureData$/;"	c
+Comscore	lib/comscore.rb	/^class Comscore$/;"	c
+ComscoreOriginData	lib/comscore_origin_data.rb	/^class ComscoreOriginData < ActiveRecord::Base  $/;"	c
+CreateComscoreOriginDataTable	migration/capture_data_migrate.rb	/^class CreateComscoreOriginDataTable < Migrations$/;"	c
+CreateProductPlacementsTable	migration/product_placements_migrate.rb	/^class CreateProductPlacementsTable < Migrations$/;"	c
+Migrations	migration/migrations.rb	/^class Migrations < ActiveRecord::Migration$/;"	c
+ProductPlacementUrl	lib/product_placement_url.rb	/^class ProductPlacementUrl$/;"	c
+ProductPlacements	lib/product_placements.rb	/^class ProductPlacements < ActiveRecord::Base  $/;"	c
+Wm123Baidu	lib/wm123_baidu.rb	/^class Wm123Baidu$/;"	c
+dashboard	lib/comscore.rb	/^  def dashboard(media_id)$/;"	f	class:Comscore
+down	migration/capture_data_migrate.rb	/^  def down$/;"	f	class:CreateComscoreOriginDataTable
+down	migration/product_placements_migrate.rb	/^  def down$/;"	f	class:CreateProductPlacementsTable
+gen_histogram	lib/wm123_baidu.rb	/^  def gen_histogram(siteid, type)$/;"	f	class:Wm123Baidu
+get_comscore_origin_data	lib/capture_data.rb	/^  def get_comscore_origin_data(media_id)$/;"	f
+get_first_media_id	lib/capture_data.rb	/^  def get_first_media_id(query)$/;"	f
+get_json_object_provider	lib/capture_data.rb	/^  def get_json_object_provider(query)$/;"	f
+get_search_list	lib/wm123_baidu.rb	/^  def get_search_list(query)$/;"	f	class:Wm123Baidu
+handle	lib/product_placement_url.rb	/^  def handle$/;"	f	class:ProductPlacementUrl
+initialize	lib/capture_data.rb	/^  def initialize$/;"	f	class:CaptureData
+initialize	lib/comscore.rb	/^  def initialize$/;"	f	class:Comscore
+initialize	lib/wm123_baidu.rb	/^  def initialize$/;"	f	class:Wm123Baidu
+json_object_provider	lib/comscore.rb	/^  def json_object_provider(query)$/;"	f	class:Comscore
+login	lib/comscore.rb	/^  def login(username = 'chs_syim', password = '1malone')$/;"	f	class:Comscore
+process	lib/capture_data.rb	/^  def process$/;"	f	class:CaptureData
+up	migration/capture_data_migrate.rb	/^  def up$/;"	f	class:CreateComscoreOriginDataTable
+up	migration/product_placements_migrate.rb	/^  def up$/;"	f	class:CreateProductPlacementsTable
