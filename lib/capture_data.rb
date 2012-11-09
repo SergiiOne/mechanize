@@ -17,7 +17,7 @@ class CaptureData
     logger = Logger.new "log/capture_data.log"
     logger.datetime_format = "%Y-%m-%d %H:%M:%S"
 
-    ProductPlacements.where("id > '4474' ").each do |website|
+    ProductPlacements.all.each do |website|
 
       begin
         media_id = get_first_media_id(website.url)
